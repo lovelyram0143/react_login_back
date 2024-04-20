@@ -4,12 +4,7 @@ const sql = require("mssql/msnodesqlv8");
 // const  hostname  = require("os");
 
 const app = express();
-// const server=require('http').createServer(app);
-// server.listen(port, hostname:() => {
-//     console.log('started')
-// });
 
-// SQL Server configuration
 var config = {
     
     server: "(localdb)\\MSSQLLocalDB  ", // Server IP address
