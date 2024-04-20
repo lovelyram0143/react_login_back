@@ -26,7 +26,7 @@ sql.connect(config, err => {
 });
 
 // Define route for fetching data from SQL Server
-app.get("/", (request, response) => {
+app.get("/student/", (_request, response) => {
     // Execute a SELECT query
     new sql.Request().query("SELECT * FROM students", (err, result) => {
         if (err) {
