@@ -5,8 +5,8 @@ const { hostname } = require("os");
 
 const app = express();
 const server=require('http').createServer(app);
-server.listen(port, hostname() => {
-    console.log('started');
+server.listen(port, hostname:() => {
+    console.log('started')
 });
 
 // SQL Server configuration

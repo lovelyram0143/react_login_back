@@ -12,6 +12,10 @@
   "dependencies": {
     "express": "^4.19.2",
     "msnodesqlv8": "^4.1.2",
-    "mssql": "^10.0.2"
+    "mssql": "^10.0.2",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "node":"21.7.1"
   }
 }
